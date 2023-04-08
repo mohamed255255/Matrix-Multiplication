@@ -1,1 +1,1 @@
-# Matrix-Multiplication_IPC
+# Matrix-Multiplication_ParallelProcessing
