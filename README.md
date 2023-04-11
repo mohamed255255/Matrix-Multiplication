@@ -34,14 +34,14 @@ ex git :
   ```
 
 # How to run MPI programm : 
-*compilation command : 
+* compilation command : 
 ex git :
   ```
  mpicc your_source_code.c -o your_output_file.c
 
   ```
 
-*excution command : 
+* excution command : 
 ex git :
   ```
  mpiexec -n (X) ./your_output_file.c
