@@ -15,7 +15,7 @@ from a file.
   
 you can excute and allocate the processes (cores) in this way:
 
-ex git :
+example  :
 ```
 mpiexec -n (X) ./output.c
 
@@ -33,7 +33,8 @@ example :
 
   ```
 
-# How to run MPI programm : 
+# How to run and compile MPI programm : 
+* you need to download MPI beforehand
 * Open the terminal in your linux and do the following 
 * compilation command : 
 ex git :
@@ -43,9 +44,13 @@ ex git :
   ```
 
 * excution command : 
+
 example :
-  ```
+ ```
  mpiexec -n (X) ./your_output_file.c
 
-  ```
-* ignore the error from MPI library when you open your IDE  
+ ```
+* ignore the error from MPI library when you open your IDE  just run directly from the terminal
+
+# Test Case example : 
+![Screenshot](screenshot.png)
