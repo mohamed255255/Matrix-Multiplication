@@ -24,7 +24,7 @@ mpiexec -n (X) ./output.c
 
 * Read the number of rows and columns of the input matrices. They are written in the first line of the file as ”row=x col=y”. The following is an example of the format on an input file.  
 
-ex git :
+example :
   ```
   row=3 col=5
   1 2 3 4 5
@@ -43,7 +43,7 @@ ex git :
   ```
 
 * excution command : 
-ex git :
+example :
   ```
  mpiexec -n (X) ./your_output_file.c
 
