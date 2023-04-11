@@ -34,6 +34,7 @@ ex git :
   ```
 
 # How to run MPI programm : 
+* Open the terminal in your linux and do the following 
 * compilation command : 
 ex git :
   ```
@@ -47,3 +48,4 @@ ex git :
  mpiexec -n (X) ./your_output_file.c
 
   ```
+* ignore the error from MPI library when you open your IDE  
