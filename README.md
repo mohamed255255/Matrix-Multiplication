@@ -13,7 +13,7 @@ from a file.
 * you are required to use message passing interface "MPI" to distribute the inputs rows for the allocated (X) processes
   in order to multiply the two input matrices and send the result back to the master.
   
-you can excute and allocate the processes(cores) in this way:
+you can excute and allocate the processes (cores) in this way:
 
 ex git :
 ```
@@ -30,5 +30,20 @@ ex git :
   1 2 3 4 5
   6 7 8 9 10
   11 12 13 14 15
+
+  ```
+
+# How to run MPI programm : 
+*compilation command : 
+ex git :
+  ```
+ mpicc your_source_code.c -o your_output_file.c
+
+  ```
+
+*excution command : 
+ex git :
+  ```
+ mpiexec -n (X) ./your_output_file.c
 
   ```
