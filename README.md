@@ -36,16 +36,15 @@ example :
 # How to run and compile MPI programm : 
 * you need to download MPI beforehand
 * Open the terminal in your linux and do the following 
-* compilation command.
 
 
+compilation command:
   ```
  mpicc your_source_code.c -o your_output_file.c
 
   ```
 
-* excution command.
-
+excution command :
  ```
  mpiexec -n (X) ./your_output_file.c
 
