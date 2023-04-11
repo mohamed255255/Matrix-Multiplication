@@ -10,7 +10,26 @@ from a file.
 
 # Requiremnts:
 
-* you are required to use inter process communication to distribute the inputs rows for the allocated (X) processes
-  in order to multiply the two input matrices and send the result back to the master 
+* you are required to use message passing interface "MPI" to distribute the inputs rows for the allocated (X) processes
+  in order to multiply the two input matrices and send the result back to the master.
+  
+  you can excute and allocate the processes(cores) in this way:
+
+  ex git :
+  '''
+  mpiexec -n (X) ./output.c
+
+  '''
+
+* handle the case of non sufficient procsses for the matrices' rows 
 
 * Read the number of rows and columns of the input matrices. They are written in the first line of the file as ”row=x col=y”. The following is an example of the format on an input file.  
+
+ ex git :
+  '''
+  row=3 col=5
+  1 2 3 4 5
+  6 7 8 9 10
+  11 12 13 14 15
+
+  '''
