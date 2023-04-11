@@ -38,7 +38,7 @@ example :
 * Open the terminal in your linux and do the following 
 * compilation command.
 
-ex git :
+
   ```
  mpicc your_source_code.c -o your_output_file.c
 
@@ -46,7 +46,6 @@ ex git :
 
 * excution command.
 
- :
  ```
  mpiexec -n (X) ./your_output_file.c
 
