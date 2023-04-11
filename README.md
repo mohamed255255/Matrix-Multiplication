@@ -52,4 +52,4 @@ excution command :
 * ignore the error from MPI library when you open your IDE  just run directly from the terminal.
 
 # Test Case example : 
-<img src="C:\Users\mohamed\Desktop\Mozakra\term2\HPC\WORK\Matrix-Multiplication/console.png" alt="Description of your image">
+<img src="images/console.png" alt="Description of your image">
