@@ -52,4 +52,4 @@ excution command :
 * ignore the error from MPI library when you open your IDE  just run directly from the terminal.
 
 # Test Case example : 
-![Screenshot](screenshot.png)
+<img src="images/screenshot.png" alt="Description of your image">
