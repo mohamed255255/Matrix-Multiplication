@@ -46,7 +46,7 @@ ex git :
 
 * excution command.
 
-example :
+ :
  ```
  mpiexec -n (X) ./your_output_file.c
 
