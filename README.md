@@ -36,21 +36,22 @@ example :
 # How to run and compile MPI programm : 
 * you need to download MPI beforehand
 * Open the terminal in your linux and do the following 
-* compilation command : 
+* compilation command.
+
 ex git :
   ```
  mpicc your_source_code.c -o your_output_file.c
 
   ```
 
-* excution command : 
+* excution command.
 
 example :
  ```
  mpiexec -n (X) ./your_output_file.c
 
  ```
-* ignore the error from MPI library when you open your IDE  just run directly from the terminal
+* ignore the error from MPI library when you open your IDE  just run directly from the terminal.
 
 # Test Case example : 
 ![Screenshot](screenshot.png)
