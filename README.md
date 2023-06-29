@@ -6,7 +6,7 @@ Write a matrix multiplication program. Matrices’ dimensions and values are tak
 an input. Multiply the two matrices together then print the result. You need to 
 implement this program in two modes. 
 First mode reads the input from the console, and the second one reads the input 
-from a file.
+from a file. The task is required to be implemented on linux
 
 # Requiremnts:
 
